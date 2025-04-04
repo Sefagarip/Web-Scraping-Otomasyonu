@@ -1,4 +1,94 @@
-# Web Scraping Otomasyonu
+# Web Scraping Automation - Web Scraping Otomasyonu
+
+📌📌 Read this in: [English](#web-scraping-automation) | [Türkçe](#web-scraping-otomasyonu)
+
+## Web Scraping Automation
+This project is a comprehensive Selenium-based automation tool developed for web scraping and performing automated operations on websites. With its user-friendly interface, it allows even those without technical knowledge to easily perform web scraping and automation tasks.
+
+### Features
+
+- **Easy to Use**: Menu-based interface for simple automation operations
+- **Web Browsing**: Navigate through websites, interact with elements and extract data
+- **Data Collection**: Reading text, exporting table data to CSV/Excel
+- **Image Download**: Automatically download images from websites
+- **Combination Feature**: Perform multiple operations in sequence automatically
+- **Parameter Memory**: Ability to reuse previous parameters for repeating the same operations
+
+### Installation
+
+1. Download and install Python from [python.org](https://www.python.org/downloads/)
+2. Download or clone the project:
+   ```
+   git clone https://github.com/Sefagarip/Web-Scraping-Otomasyonu.git
+   cd Web-Scraping-Otomasyonu
+   ```
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Usage
+
+To run the program:
+
+```
+python "web scraping otomasyonu.py"
+```
+
+#### Main Menu Options
+
+1. **Start browser**: Opens Chrome browser
+2. **Go to URL**: Navigates to the specified web address
+3. **Click on element**: Clicks on the selected HTML element
+4. **Write text**: Writes text to the specified element
+5. **Send Enter key**: Sends the Enter key
+6. **Send special key**: Sends special keys like ENTER, TAB, ESC
+7. **Read text**: Reads the text of the specified element
+8. **Read multiple texts**: Reads text from multiple elements
+9. **Add waiting time**: Waits for the specified duration
+10. **Read table**: Finds an HTML table and converts it to a pandas DataFrame
+11. **Read data from all tables**: Collects data from all tables with pagination
+12. **Scroll**: Scrolls up/down within the page or an element
+13. **Open new tab**: Opens a new tab
+14. **Switch tab**: Switches to the specified tab
+15. **Close active tab**: Closes the current tab
+16. **Download images**: Downloads selected image elements to the computer
+17. **Close browser**: Closes the Chrome browser
+18. **Run Combination**: Runs multiple steps automatically in sequence
+
+#### Using Combinations
+
+With the combination feature, you can perform multiple operations in sequence automatically:
+
+1. Select "18. Run Combination" from the main menu
+2. Enter the numbers of the operations you want to perform separated by spaces (e.g., "3 12 9 7")
+3. The program will run each step in sequence and ask you for the necessary information
+4. When you use the same step again, you can choose whether to use the previous information
+
+#### Example Usage Scenario
+
+To collect product information from a website:
+1. Start the browser
+2. Go to an e-commerce site
+3. Click on the search box
+4. Write "Phone" and search
+5. Read the results as a table
+6. Export the data to Excel
+
+### Dependencies
+
+- Python 3.6+
+- Selenium
+- pandas
+- webdriver-manager
+- requests
+
+### Contact
+
+For questions or suggestions, you can use the [GitHub Issues](https://github.com/Sefagarip/Web-Scraping-Otomasyonu/issues) section.
+
+
+## Web Scraping Otomasyonu
 
 Bu proje, web sitelerinden veri çekme ve otomatik işlemler gerçekleştirme amacıyla geliştirilmiş Selenium tabanlı kapsamlı bir otomasyon aracıdır. Kullanıcı dostu arayüzü ile teknik bilgisi olmayan kişilerin bile kolayca web scraping ve otomasyon işlemleri yapabilmesini sağlar.
 
